@@ -1,0 +1,43 @@
+CRITICAL - 2023-12-06 12:15:38 --> syntax error, unexpected 'as' (T_AS), expecting ';' or '{'
+in APPPATH\Controllers\Home.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web_desaCI4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 12:51:06 --> Undefined variable: judul
+in APPPATH\Views\v_template_front_end.php on line 9.
+ 1 APPPATH\Views\v_template_front_end.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: judul', 'C:\\xampp\\htdocs\\web_desaCI4\\app\\Views\\v_template_front_end.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web_desaCI4\\app\\Views\\v_template_front_end.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template_front_end')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 12:53:06 --> Undefined variable: judul
+in APPPATH\Views\v_template_front_end.php on line 9.
+ 1 APPPATH\Views\v_template_front_end.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: judul', 'C:\\xampp\\htdocs\\web_desaCI4\\app\\Views\\v_template_front_end.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web_desaCI4\\app\\Views\\v_template_front_end.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template_front_end')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 12:56:16 --> Undefined variable: judul
+in APPPATH\Views\v_template_front_end.php on line 9.
+ 1 APPPATH\Views\v_template_front_end.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: judul', 'C:\\xampp\\htdocs\\web_desaCI4\\app\\Views\\v_template_front_end.php', 9, [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\web_desaCI4\\app\\Views\\v_template_front_end.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_template_front_end', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template_front_end')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
